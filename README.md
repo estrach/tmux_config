@@ -2,5 +2,5 @@
 
 ## Quick start
 ```
-git clone ~/tmux_config && ln -sf ~/tmux_config/.tmux.conf ~
+git clone https://github.com/estrach/tmux_config.git ~/tmux_config && ln -sf ~/tmux_config/.tmux.conf ~
 ```
