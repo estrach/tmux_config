@@ -13,4 +13,4 @@ Place the `.tmux.conf` file in the user home and install the tmux pluggin manage
 ```
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && git clone https://github.com/estrach/tmux_config.git ~/tmux_config && ln -sf ~/tmux_config/.tmux.conf ~
 ```
-When running tmux press <bind-key> <SHIFT> + <I> to install the pluggins
+When running tmux press `prefix` + `I` to install the pluggins
