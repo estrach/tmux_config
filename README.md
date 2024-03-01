@@ -9,7 +9,8 @@ Setup personal configuration settings for terminal multiplexer (tmux).  Config f
 * Fix the terminal colors for use of vim/nvim over ssh
 
 ## Quick start
-Place the `.tmux.conf` file in the user home: 
+Place the `.tmux.conf` file in the user home and install the tmux pluggin manager: 
 ```
-git clone https://github.com/estrach/tmux_config.git ~/tmux_config && ln -sf ~/tmux_config/.tmux.conf ~
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && git clone https://github.com/estrach/tmux_config.git ~/tmux_config && ln -sf ~/tmux_config/.tmux.conf ~
 ```
+When running tmux press <bind-key> <SHIFT> + <I> to install the pluggins
