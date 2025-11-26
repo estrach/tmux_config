@@ -12,5 +12,5 @@ Setup personal configuration settings for terminal multiplexer (tmux).  Config f
 Place the `.tmux.conf` file in the user home and install the tmux pluggin manager: 
 ```
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && git clone https://github.com/estrach/tmux_config.git ~/tmux_config && ln -sf ~/tmux_config/.tmux.conf ~
+~/.tmux/plugins/tpm/bindings/install_plugins
 ```
-When running tmux press `prefix` + `I` to install the pluggins
